@@ -1,1 +1,109 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  background-color: #0A100D; 
+
+}
+
+
+/* Modify the backgorund color  of the navbar*/ 
+.navbar-custom { 
+  background-color: #0A100D; 
+} 
+
+.parafo{
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.title{
+  color: #fff;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.center {
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+  width:100%;
+  position:relative;
+  z-index:0;
+  overflow:hidden
+ 
+}
+footer {
+  background-color: #0A100D; 
+
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.brand{
+  color: #fff;
+  background-color: transparent;
+  position: absolute;
+  top: 85%;
+  left: 40%;
+}
+
+.gallery__item {
+  background-repeat:no-repeat;
+  background-position: center;
+
+ }
+ .rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.hero .gallery {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  width:100%;
+  height:100%
+ }
+#page-content {
+    flex: 1 0 auto;
+  }
+  
+  #sticky-footer {
+    flex-shrink: none;
+  }
+  .gallery {
+    width:100%;
+    position:relative;
+    z-index:0;
+    background-color:#fff
+   }
+
+.gallery__item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+  /* Other Classes for Page Styling */
+  .gallery__content img {
+    display:inline
+   }
+  body {
+
+  }
